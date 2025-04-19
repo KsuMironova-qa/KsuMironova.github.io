@@ -1,1 +1,2 @@
-# KsuMironova.github.io
+# CV
+Сайт на простом HTML + CSS + JS

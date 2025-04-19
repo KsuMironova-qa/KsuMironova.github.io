@@ -1,0 +1,116 @@
+
+body {
+  font-family: Arial Black, sans-serif;
+  background-image: url("back.jpg");
+  background-size: 1600 px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.container {
+ 
+  font-family: Arial Black;
+
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+  color:white;
+}
+
+h1 {
+  font-size: 2,5em;
+  font-family: Arial Black;
+  font-weight:bold;
+  color: white;
+  text-shadow: black 1px 1px 3px;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 1em 0;
+  font-family: Arial Black;
+  font-weight:bold;
+  color: white;
+  text-shadow: black 1px 1px 3px;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: white;
+  text-shadow: black 1px 1px 3px;
+  font-weight:bold;
+
+}
+
+h4 {
+  font-size: 1.3em;
+  margin: 1em 0;
+  font-family: Arial Black;
+  font-weight:bold;
+  color: white;
+  text-shadow: black 1px 1px 3px;
+}
+
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 500px;
+  /* Радиус скругления */
+  border: 2px solid white;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 1,8px solid #FFB6C1;
+  filter: grayscale(50%);
+}
+
+/*Иконки*/ 
+
+.icon {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.icon:hover {
+  -webkit-transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+
+.icon {
+  filter: invert(100%);
+}
+
+/*контакты */
+
+.telegram {
+width: 33.3333333333%;
+  float: left;
+}
+.mail {
+width: 33.3333333333%;
+  float: left;
+}
+.github {
+  width: 33.3333333333%;
+  float: left;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+
